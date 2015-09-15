@@ -8,7 +8,7 @@ module.exports = class MakeDirFileTask
   register MakeDirFileTask
   aliases  MakeDirFileTask, 'mkdir', 'MakeDir'
 
-  defineProperties MakeDirFileTask
+  defineProperties @,
     dest:
       type: 'String'
     mode:
